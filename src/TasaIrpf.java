@@ -30,5 +30,14 @@ public class TasaIrpf {
         System.out.println("Tu salario es:" + salario + "\n El porcentaje de irpf sobre tu sueldo es:" + porcentaje
                 + "\n Y debes pagar de irpf al año: " + sumatorio);
 
+        float sumatorioMes=sumatorio/12f;
+        float salarioMesBruto=salario/12f;
+
+        float salarioMesNeto=salarioMesBruto-sumatorioMes;
+
+        System.out.println("Tu salario al mes es de: "+salarioMesNeto);
+
+
+
     }
 }
